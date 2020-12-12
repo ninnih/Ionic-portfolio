@@ -1,0 +1,14 @@
+ion-card {
+	width: 100%;
+	min-height: 90%;
+
+	.cardImage {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+	}
+
+	p {
+		text-align: justify;
+	}
+}

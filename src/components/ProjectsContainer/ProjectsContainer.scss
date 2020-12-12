@@ -1,0 +1,12 @@
+@import '../../theme/variables.scss';
+@import '../../theme/variables.css';
+
+ion-slides {
+	min-height: calc(100% - 112px);
+	width: 100%;
+}
+
+ion-col {
+	min-height: 100%;
+	width: 100%;
+}

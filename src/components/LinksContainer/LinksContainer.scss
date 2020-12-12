@@ -1,0 +1,16 @@
+
+.main {
+	// background-image: url('../../assets/images/background.jpg');
+	// background-position: center;
+	// background-size: cover;
+	width: 100%;
+	height: calc(100vh - 113px);
+	background-color: #f3f3f7;
+	display: flex;
+	justify-content: flex-start;
+
+	&--center {
+		justify-content: center;
+		align-items: center;
+	}
+}
