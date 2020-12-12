@@ -40,7 +40,7 @@ const App: React.FC = () => (
         <IonRouterOutlet>
           <Route path="/about" component={About} exact={true} />
           <Route path="/links" component={Links} exact={true} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/skills" component={Projects} />
           <Route path="/" render={() => <Redirect to="/about" />} exact={true} />
         </IonRouterOutlet>
 
@@ -53,9 +53,9 @@ const App: React.FC = () => (
             <IonIcon icon={shareSocial} color="bluewater"/>
             <IonLabel color="bluewater">Links</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="projects" href="/projects">
+          <IonTabButton tab="skills" href="/skills">
             <IonIcon icon={albums} color="bluewater"/>
-            <IonLabel color="bluewater">Projects</IonLabel>
+            <IonLabel color="bluewater">Skills</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

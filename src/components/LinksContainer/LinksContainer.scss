@@ -1,13 +1,15 @@
 
 .main {
-	// background-image: url('../../assets/images/background.jpg');
-	// background-position: center;
-	// background-size: cover;
+	position: relative;
+	background-image: url('../../assets/images/wood.jpg');
+	background-position: center;
+	background-size: cover;
 	width: 100%;
-	height: calc(100vh - 113px);
+	min-height: calc(100vh - 113px);
 	background-color: #f3f3f7;
 	display: flex;
 	justify-content: flex-start;
+	background-blend-mode: overlay;
 
 	&--center {
 		justify-content: center;
