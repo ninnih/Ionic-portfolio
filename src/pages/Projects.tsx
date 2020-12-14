@@ -3,15 +3,12 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import './Projects.scss';
 import Logo from '../assets/images/logo.svg';
 import ProjectsContainer from '../components/ProjectsContainer/ProjectsContainer';
+import Header from '../components/Header/Header';
 
 const Projects: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-      <IonToolbar color="light">
-          <img src={Logo} alt="" className="logo"/>
-        </IonToolbar>
-      </IonHeader>
+      <Header/>
       <IonContent fullscreen color="light">
         <IonHeader collapse="condense">
           <IonToolbar>

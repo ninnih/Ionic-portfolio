@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { IonCard, IonCardHeader, IonCardContent, IonCardTitle, IonCardSubtitle } from '@ionic/react';
+import { IonCard, IonCardHeader, IonCardContent, IonCardTitle } from '@ionic/react';
 import './ProjectCard.scss'
 interface Props {
 	card: any
@@ -12,7 +12,7 @@ const ProjectCard: FC<Props> = ({ card }) => {
 			<IonCardHeader color="bluewater">
 				<IonCardTitle>{card.title}</IonCardTitle>
 			</IonCardHeader>
-			<IonCardContent>
+			<IonCardContent class="cardContent">
 				<p>{card.content}</p>
 			</IonCardContent>
 		</IonCard>
